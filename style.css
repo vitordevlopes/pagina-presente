@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@455&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #FF8C9E;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+    padding: 0% 0% 0% 15%;
+}
+
+.cabecalho__links {
+    text-decoration: none;
+    color: #F8EDED;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #F5EDED;
+    color: #FF8C9E;
+    height: 100vh;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.apresentacao__aniversario {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+}
+
+
+.apresentacao__carta {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.apresentacao__texto {
+    font-size: 24px;
+}
+
+.titulos {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo__fotos {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 106px;
+}
+
+.apresentacao__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    width: 100%;
+}
+
+.apresentacao__itens {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.apresentacao__fotos img {
+    width: 100%;
+    height: 100%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FF8C9E;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.link_rodape_logo {
+    display: flex;
+    align-items: center;
+}
+
+.audio-player {
+    display: none;
+}
